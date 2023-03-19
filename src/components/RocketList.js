@@ -1,4 +1,4 @@
-import React, { useEffect, useState, useContext } from 'react'
+import React, { useEffect, useState, useContext} from 'react'
 import { DataContext } from '../global/global-state'
 
 
@@ -13,6 +13,7 @@ const RocketList = () => {
     const [rocketData, setRocketData] = useState(null);
     const [isLoading, setLoading] = useState(true);
     const { data, dispatch } = useContext(DataContext)
+
     useEffect(() => {
         setRocketData(null)
         setLoading(true)
@@ -31,7 +32,7 @@ const RocketList = () => {
 
             {!isLoading && <Pagination />}
             {isLoading ? <Loading /> :
-                <div className='max-w-5xl grid grid-cols-2 gap-6 '>
+                <div className='max-w-5xl grid grid-cols-1 md:grid-cols-2 gap-6 px-4'>
                     {
                         rocketData.map((data) => {
                             return <RocketCard key={data.id} data={data} />
