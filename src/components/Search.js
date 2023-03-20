@@ -34,7 +34,7 @@ const Search = () => {
     }
     return (
         <>
-            <div className="flex items-center w-max text-xl space-x-3 relative border-2 border-black px-5 py-2 rounded-full my-4">
+            <div className="flex items-center w-max text-xl space-x-3 relative border-2 border-black px-5 py-2 rounded-full my-4 px-4">
                 <div>
                     <input type="text" placeholder='Search' className='focus:border-none focus:outline-none' value={searchTerm} onChange={e => setSearchTerm(e.target.value)} onFocus={() => setShowFilters(true)} onBlur={() => setShowFilters(false)} />
                 </div>
