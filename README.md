@@ -9,7 +9,7 @@ SpaceZ is a React project that allows users to view information about the planet
 - Images and graphics to enhance the user experience
 - Ability to search for specific ship
 
-![Live](https://giphy.com/gifs/I2VxDfOWuAyp4bnAOE)
+![Live]([https://giphy.com/gifs/I2VxDfOWuAyp4bnAOE](https://github.com/zjeref/Ram-Kumar--Frontend-Developer/blob/main/src/assets/giphy.gif))
 
 ## Installation
 
